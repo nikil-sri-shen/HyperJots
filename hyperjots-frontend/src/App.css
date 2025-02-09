@@ -1,0 +1,73 @@
+/* Full-page futuristic background */
+body {
+  background: linear-gradient(to right, #1e1e2e, #2a0845);
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container for the app */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header styling */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(45deg, #ff00ff, #00ffff);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0px 0px 10px rgba(255, 0, 255, 0.7);
+}
+
+/* Glassmorphism style for containers */
+.glass-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin-top: 80px; /* Add space below navbar */
+  margin-bottom: 80px; /* Add space above footer */
+  padding: 20px;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  z-index: 1;
+}
+
+/* Button styling */
+button {
+  background: linear-gradient(45deg, #ff00ff, #00ffff);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 10px rgba(255, 0, 255, 0.7);
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.7);
+}
+
+/* Input fields */
+input,
+textarea {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}

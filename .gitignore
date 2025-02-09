@@ -1,0 +1,74 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/hyperjots-frontend/node_modules
+/hyperjots-frontend/.pnp
+/hyperjots-frontend/.pnp.js
+/hyperjots-backend/node_modules
+/hyperjots-backend/.pnp
+/hyperjots-backend/.pnp.js
+/chaincode/node_modules
+/chaincode/.pnp
+/chaincode/.pnp.js
+/node_modules
+/.pnp
+/.pnp.js
+
+# testing
+/hyperjots-frontend/coverage
+/hyperjots-backend/coverage
+/chaincode/coverage
+/coverage
+
+# production
+/hyperjots-frontend/build
+/hyperjots-backend/build
+/chaincode/build
+/build
+
+# misc
+/hyperjots-frontend/.DS_Store
+/hyperjots-frontend/.env.local
+/hyperjots-frontend/.env.development.local
+/hyperjots-frontend/.env.test.local
+/hyperjots-frontend/.env.production.local
+
+/hyperjots-backend/.DS_Store
+/hyperjots-backend/.env.local
+/hyperjots-backend/.env.development.local
+/hyperjots-backend/.env.test.local
+/hyperjots-backend/.env.production.local
+
+/chaincode/.DS_Store
+/chaincode/.env.local
+/chaincode/.env.development.local
+/chaincode/.env.test.local
+/chaincode/.env.production.local
+
+/.DS_Store
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+/hyperjots-frontend/npm-debug.log*
+/hyperjots-frontend/yarn-debug.log*
+/hyperjots-frontend/yarn-error.log*
+
+/hyperjots-backend/npm-debug.log*
+/hyperjots-backend/yarn-debug.log*
+/hyperjots-backend/yarn-error.log*
+
+/chaincode/npm-debug.log*
+/chaincode/yarn-debug.log*
+/chaincode/yarn-error.log*
+
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+
+# Ignore vendor folder inside chaincode/go
+/chaincode/go/vendor/
+chaincode/go/.DS_Store
+chaincode/go/go.mod
+chaincode/go/go.sum
