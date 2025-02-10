@@ -10,7 +10,7 @@ Before running this application, ensure you have the following installed:
 
 ### 1️⃣ Clone the Repository  
 ```sh
-git clone https://https://github.com/nikil-sri-shen/HyperJots
+git clone https://github.com/nikil-sri-shen/HyperJots
 cd HyperJots
 ```
 ### 2️⃣ Deploy the Hyperledger Fabric Network
