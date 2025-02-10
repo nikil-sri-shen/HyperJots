@@ -35,15 +35,15 @@ node server.js
 ```
 
 ### 🎯 Features
-✅ Hyperledger Fabric for secure and private note-sharing
-✅ ReactJS frontend for a user-friendly interface
-✅ Smart contract-based note management
-✅ REST API integration for seamless interactions
+- ✅ Hyperledger Fabric for secure and private note-sharing
+- ✅ ReactJS frontend for a user-friendly interface
+- ✅ Smart contract-based note management
+- ✅ REST API integration for seamless interactions
 
 ### 🚀 Future Enhancements
-🔐 User authentication (JWT-based login)
-🎨 UI enhancements (Material UI / Tailwind)
-📡 Multi-channel support for different departments
+- 🔐 User authentication (JWT-based login)
+- 🎨 UI enhancements (Material UI / Tailwind)
+- 📡 Multi-channel support for different departments
 
 ### 📌 Contribution & Feedback
 Feel free to fork the repo, submit PRs, or share feedback! Let's build together.
